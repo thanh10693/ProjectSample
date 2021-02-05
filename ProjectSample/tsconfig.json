@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "isolatedModules": true,
+      "jsx": "react",
+      "lib": [
+        "es6"
+      ],
+      "moduleResolution": "node",
+      "noEmit": true,
+      "strict": true,
+      "target": "esnext",
+      "baseUrl": ".",
+      "paths": {
+        "assets/*": [
+          "src/assets/*"
+        ],
+        "core/*": [
+          "src/core/*"
+        ],
+        "components/*": [
+          "src/components/*"
+        ],
+        "navigation/*": [
+          "src/navigation/*"
+        ],
+        "redux/*": [
+          "src/redux/*"
+        ],
+        "screens/*": [
+          "src/screens/*"
+        ],
+        "util/*": [
+          "src/util/*"
+        ],
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js"
+    ],
+    "include": [
+      "src/**/*"
+    ]
+  }
